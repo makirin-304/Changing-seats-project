@@ -9,21 +9,19 @@ end
 
 
 
-rem = input % 2
 mod6 = input % 6
 
-if rem == 0
+if input.even?
 
 #偶数人の時の処理
+pp 'guusuudesu'
+  else if mod6 != 5
 
-else if mod6 != 5
+  #奇数人の時の処理
+  pp 'kisuudesu'
+  else
 
-#奇数人の時の処理
-
-else
-
-#奇数かつ６で割った余が５の時の処理
-
+  #奇数かつ６で割った余が５の時の処理
+  pp 'tpkushudesu'
+  end
 end
-
-
